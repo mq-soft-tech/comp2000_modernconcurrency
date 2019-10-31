@@ -26,11 +26,16 @@
 public class Counter {
 	private int value;
 
-	public synchronized void increment() {
+	// No attempt made here to ensure thread safety.
+	// We could add the 'synchronized' keyword to 'increment'
+	// and 'decrement', but see the 'atomic_counter' example for
+	// a different approach using atomics.
+
+	public void increment() {
 		value++;
 	}
 
-	public synchronized void decrement() {
+	public void decrement() {
 		value--;
 	}
 
