@@ -1,0 +1,60 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ScheduledStuff",
+            "request": "launch",
+            "mainClass": "org.macquarie.threadpool.ScheduledStuff",
+            "projectName": "ModernConcurrency"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "org.macquarie.safecircles.Main",
+            "projectName": "ModernConcurrency"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CountDown",
+            "request": "launch",
+            "mainClass": "org.macquarie.latch.CountDown",
+            "projectName": "ModernConcurrency"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ForkJoinThreadPool",
+            "request": "launch",
+            "mainClass": "org.macquarie.threadpool.ForkJoinThreadPool",
+            "projectName": "ModernConcurrency"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SimpleThreadPool",
+            "request": "launch",
+            "mainClass": "org.macquarie.threadpool.SimpleThreadPool",
+            "projectName": "ModernConcurrency"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestCounter",
+            "request": "launch",
+            "mainClass": "org.macquarie.timed_counters.TestCounter",
+            "projectName": "ModernConcurrency"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestCounter",
+            "request": "launch",
+            "mainClass": "org.macquarie.atomic_counter.TestCounter",
+            "projectName": "ModernConcurrency"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestCounter",
+            "request": "launch",
+            "mainClass": "org.macquarie.counter.TestCounter",
+            "projectName": "ModernConcurrency"
+        }
+    ]
+}
