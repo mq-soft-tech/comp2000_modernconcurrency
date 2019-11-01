@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Smoother",
+            "request": "launch",
+            "mainClass": "org.macquarie.smoother.Smoother",
+            "projectName": "ModernConcurrency"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ForkJoinSmoother",
+            "request": "launch",
+            "mainClass": "org.macquarie.smoother.ForkJoinSmoother",
+            "projectName": "ModernConcurrency"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LatchedSmoother",
+            "request": "launch",
+            "mainClass": "org.macquarie.smoother.LatchedSmoother",
+            "projectName": "ModernConcurrency"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ScheduledStuff",
             "request": "launch",
             "mainClass": "org.macquarie.threadpool.ScheduledStuff",
