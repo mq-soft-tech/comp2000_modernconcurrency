@@ -74,12 +74,6 @@ public class BoundedBuffer<T> {
 				notFull.await();
 			}
 
-			// First check to see if there is space in the buffer.
-			while (mNext - mHead >= CAPACITY) {
-				System.out.println("Waiting for some buffer space!");
-				Thread.sleep(1000);
-			}
-
 			// Now we know there is space so add the new value.
 			mValues[mNext % CAPACITY] = pValue;
 			mNext++;
