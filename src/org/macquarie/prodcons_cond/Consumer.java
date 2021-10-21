@@ -2,9 +2,9 @@
  * This file is part of a project entitled ModernConcurrency which is provided
  * as sample code for the following Macquarie University unit of study:
  * 
- * COMP229 "Object Oriented Programming Practices"
+ * COMP2000 "Object Oriented Programming Practices"
  * 
- * Copyright (c) 2011 Dominic Verity and Macquarie University.
+ * Copyright (c) 2019-2021 Dominic Verity and Macquarie University.
  * 
  * ModernConcurrency is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as published by
